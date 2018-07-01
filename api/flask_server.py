@@ -146,5 +146,5 @@ commands = {
 }
 
 if __name__ == '__main__':
-    app.run(use_reloader=True, port=8000)
+    app.run(use_reloader=True, port=8000, threaded=True)
 
